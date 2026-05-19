@@ -32,7 +32,6 @@ const Hero = () => {
       </div>
 
       <div className="hero-illustration">
-        {/* Mocking the illustration with CSS since we don't have the image asset */}
         <div className="mock-statue">
           <span>🏛️</span>
         </div>

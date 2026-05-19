@@ -21,7 +21,6 @@ const Footer = () => {
           Emirates
         </p>
 
-        {/* Here are the updated professional icons */}
         <div className="social-icons">
           <a href="#twitter" aria-label="Twitter">
             <FaTwitter />

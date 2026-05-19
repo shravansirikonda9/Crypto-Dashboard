@@ -1,4 +1,23 @@
-/* App.css */
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  max-width: 100% !important;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +28,6 @@
 body {
   background-color: #0a0a0c;
   color: #ffffff;
-  /* Simulating the warm background glow from the design */
   background-image: radial-gradient(
     circle at 50% 30%,
     rgba(242, 107, 15, 0.08) 0%,
@@ -20,20 +38,19 @@ body {
 }
 
 .dashboard-wrapper {
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
 }
 
-/* Common Section Styles */
 section {
-  padding: 80px 5%;
+  padding: 80px 40px;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 section h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-bottom: 50px;
   font-weight: 600;
 }
@@ -44,7 +61,7 @@ section h2 {
 
 .explore-link {
   color: #f26b0f;
-  font-size: 0.85rem;
+  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;

@@ -11,16 +11,16 @@
   border-radius: 10px;
   width: 300px;
   border-top: 3px solid #58a6ff;
-  border-left: 1px solid #30363d;
-  border-right: 1px solid #30363d;
-  border-bottom: 1px solid #30363d;
+  border: 1px solid #30363d;
+  border-top-width: 3px;
 }
 
 .eco-card h4 {
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 19px;
 }
 
 .eco-card p {
+  font-size: 15px;
   color: #8b949e;
 }
