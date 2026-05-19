@@ -1,0 +1,18 @@
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.feature-card {
+  background-color: #161b22;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #30363d;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}

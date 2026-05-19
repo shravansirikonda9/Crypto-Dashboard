@@ -1,0 +1,98 @@
+.footer {
+  padding: 80px 5% 40px;
+  text-align: center;
+  background: linear-gradient(to top, rgba(242, 107, 15, 0.05), transparent);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-content h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+}
+
+.footer-desc {
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+  font-size: 1.5rem;
+}
+
+.newsletter {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.newsletter h4 {
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-form input {
+  padding: 12px 15px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  outline: none;
+}
+
+.btn-subscribe {
+  background-color: #f26b0f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.btn-subscribe:hover {
+  opacity: 0.9;
+}
+/* Add this anywhere in your Footer.css */
+.social-icons a {
+  color: #a0a0a0;
+  font-size: 1.5rem;
+  transition:
+    color 0.2s,
+    transform 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  color: #f26b0f;
+  transform: translateY(-3px);
+}
